@@ -1,6 +1,5 @@
 body {
     background-color:black;
-    font-size:35px;
   
 }
 #area {
@@ -11,7 +10,6 @@ body {
     left:200px;
     height: 200px;
     width:200px;
-
 }
 #cube {
     position:absolute;
@@ -27,35 +25,35 @@ body {
     height:190px;
     width:190px;
     line-height:190px;
-    text-align:center;
-    font-size:35px;
     position:absolute;
     -webkit-transform-origin: 50% 50%;
 }
 .side.front{
     -webkit-transform:rotateY(0deg) translateZ(100px);
-    background: white ;
+    background-color: white ;
+    border:5px rgba(255,255,255,1) solid;
     z-index:1;
-    -webkit-backface-visibility:                  hidden;
+    -webkit-backface-visibility:visible;
 }
 
 .side.back{
     -webkit-transform:rotateY(180deg) rotateZ(-90deg) translateZ(100px) ;
-    background:red;
+    background-color:red;
+    border:5px rgba(255,255,255,1) solid;
     z-index:1;
 
 }
 
 .side.bottom{
     -webkit-transform:rotateX(-90deg)  translateZ(100px);
-    background: rgba(0,255,0,0.5);
+    background-color: yellow;
     z-index:1;
     border:5px rgba(255,255,255,1) solid;
     -webkit-backface-visibility:                  hidden;
 }
 .side.top{
     -webkit-transform:rotateX(90deg) rotateZ(90deg) translateZ(100px) ;
-    background: rgba(0,255,255,0.5);
+    background-color:purple;
     z-index:1;
     border:5px rgba(255,255,255,1) solid;
     -webkit-backface-visibility:                  hidden;
@@ -63,7 +61,7 @@ body {
 
 .side.right{
     -webkit-transform:rotateY(90deg) rotateZ(-90deg)  translateZ(100px) ;
-    background: rgba(0,0,255,0.5);
+    background-color: rgba(0,0,255,0.5);
     z-index:1;
     border:5px rgba(255,255,255,1) solid;
     -webkit-backface-visibility:                  hidden;
@@ -71,7 +69,7 @@ body {
 
 .side.left{
     -webkit-transform:rotateY(-90deg) translateZ(100px);
-    background: rgba(255,0,255,0.5);
+    background-color: rgba(255,0,255,0.5);
     z-index:1;
     border:5px rgba(255,255,255,1) solid;
     -webkit-backface-visibility:                  hidden;
