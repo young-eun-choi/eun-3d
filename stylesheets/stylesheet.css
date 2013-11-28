@@ -1,8 +1,8 @@
 body {
--webkit-perspective:   1000px;
+-webkit-perspective:   500px;
 -webkit-perspective-origin: 200px -150px;
 }
-#top{
+#left{
 background-color:pink; 
 top:   120px;
 left:  70px;
@@ -19,7 +19,7 @@ background-color:purple;
 -webkit-transform:  rotateY(90deg) rotateX(90deg) translate(50%, -50%);
 }
 
-#left {
+#right {
 top:   0px;
 width:   200px;
 height:  200px;
