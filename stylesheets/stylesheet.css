@@ -26,8 +26,9 @@ body {
     width:190px;
     line-height:190px;
     text-align:center;
-    font-size:30px;
+    font-size:50px;
     font-family:helvetica; 
+    font-weight: bold;
     color:white;
     position:absolute;
     -webkit-transform-origin: 50% 50%;
