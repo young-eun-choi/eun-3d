@@ -23,7 +23,33 @@ body {
     -webkit-animation: rotate-cube 20s infinite ;
     -webkit-transform-origin: 50% 50%;
 }
+.side{
+    height:190px;
+    width:190px;
+    border:5px rgba(215,215,215,1) solid;
+    color:#000;
+    line-height:190px;
+    text-align:center;
+    font-size:35px;
+    font-family: 'Marker Felt', "Comic Sans MS",fantasy;
+    text-transform:lowercase;
+    text-shadow:
+        1px 0px #fff,
+        0px 1px #fff,
+        0px -1px #fff,
+        -1px 0px #fff,
+        -1px 1px #fff,
+        -1px -1px #fff,
+        1px 1px #fff;
+    position:absolute;
+    border-radius:60px;
+    background-color: rgba(215,215,215,1) ;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
 
+
+}
 .side.front{
     -webkit-transform:rotateY(0deg) translateZ(100px);
     background: rgba(255,0,0,0.5) ;
